@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 import { Inter as FontSans } from "next/font/google";
 import { cn } from "@/shared/lib/css";
+import { AppHeader } from "./_widgets/header/header";
 
 import "./globals.css";
 import "@xyflow/react/dist/style.css";
@@ -29,6 +30,7 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
+        <AppHeader />
         {children}
       </body>
     </html>
