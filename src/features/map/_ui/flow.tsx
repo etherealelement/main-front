@@ -6,6 +6,11 @@ const initialNodes = [
 ];
 
 const initialEdges = [{ id: "e1-2", source: "1", target: "2" }];
-export function Flow() {
-  return <ReactFlow nodes={initialNodes} edges={initialEdges} />;
-}
+
+export const Flow = () => {
+  return (
+    <div style={{ height: "100vh", width: "100vw" }}>
+      <ReactFlow nodes={initialNodes} edges={initialEdges} />
+    </div>
+  );
+};
