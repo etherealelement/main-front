@@ -1,5 +1,5 @@
 import { Flow } from "./flow";
-import { ControlsLayout } from "./actions/controls-layout";
+import { ControlsLayout } from "@/features/map/_ui/controls/controls-layout";
 import { ReactFlowProvider } from "@xyflow/react";
 export function Map() {
   return (

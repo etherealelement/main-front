@@ -16,6 +16,6 @@ export function AppHeader() {
           </a>
         </Button>
       }
-    ></Layout>
+    />
   );
 }
